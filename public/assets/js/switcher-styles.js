@@ -536,11 +536,11 @@ function switcherEvents() {
 	//Vertical-menu & Horizontal-menu
 	if (!localStorage.getItem('dashticvertical') && !localStorage.getItem('dashtichorizontal') && !localStorage.getItem('dashtichorizontalHover')) {
 		/***************** Horizontal THEME *********************/
-		// $('body').addClass('horizontal');
+		 $('body').addClass('horizontal');
 		/***************** Horizontal THEME *********************/
 
 		/***************** Horizontal-Hover THEME *********************/
-		// $('body').addClass('horizontal-hover');
+		 $('body').addClass('horizontal-hover');
 		/***************** Horizontal-Hover THEME *********************/
 	}
 
